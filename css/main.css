@@ -378,6 +378,40 @@ footer p {
   color: #145f91;
 }
 
+.contact {
+  background-color: #FFFFFF;
+  margin: auto;
+  width: 35rem;
+  height: 40rem;
+  padding-bottom: 15rem;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.contact .form-group {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.contact .form-group .form-input {
+  width: 100%;
+  background: none;
+  color: hsla(192, 15%, 94%, 0.5);
+  font-size: 1rem;
+  padding: 0.6em 0.3em;
+  border: none;
+}
+.contact .button {
+  margin-left: 10.5rem;
+  margin-top: 1rem;
+  background: #2C3E50;
+  border-radius: 8px;
+  width: 10rem;
+  height: 3rem;
+  color: #FFFFFF;
+}
 
 
 /*# sourceMappingURL=main.css.map */
