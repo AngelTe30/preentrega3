@@ -175,5 +175,53 @@ footer{
         color: map-get($map: $colors, $key:'secondary' );
     }
 }
+.form{
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0, 30%)
+  }
+  .form-label{
+    color: map-get($map: $colors, $key:'bg' );
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+  }
 
+   .contact{
+    margin-top: 3rem;
+    display: grid;
+    gap: 2.5em;
+    .form-group{
+      position: relative;
+      color:map-get($map: $colors, $key:'bg' );
+      .form-input{
+        width: 100%;
+        background: none;
+        color: map-get($map:$colors, $key:'primary' );
+        font-size: 1rem;
+        padding: .6em .3em;
+        border:none;
+        outline: none;
+        border-bottom: 1px solid map-get($map: $colors, $key:'bg' );
+        font-family: "Nunito Sans", sans-serif;
+
+      }
+    }
+
+  .button {
+    margin-top: 1rem;
+    background: #2C3E50;
+    border-radius: 8px;
+    width: 10rem;
+    height: 3rem;
+    color: #FFFFFF;
+ }
+}
 
