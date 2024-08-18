@@ -286,7 +286,7 @@ footer p {
   border-color: #2C3E50;
   color: #2C3E50;
 }
-.newsletter button {
+.newsletter .button {
   margin-top: 1rem;
   background: #2C3E50;
   border-radius: 8px;
